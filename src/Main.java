@@ -1,5 +1,7 @@
 public class Main {
     public static void main(String[] args) {
+        System.out.println("Переменные. Часть 2");
+
         System.out.println("Задача 1");
         int black = 33000;
         System.out.println("Значение переменной black c типом int равно " + black);
@@ -74,7 +76,23 @@ public class Main {
         System.out.println("В среднем спортсмен похудеет за "+(firstDiet+secondDiet)/2+" дней.");
 
         System.out.println("Задача 8");
-        
+        int masha = 67760;
+        int denis = 83690;
+        int cristina = 76230;
+        int newMasha = masha*10/100+masha;
+        int newDenis = denis*10/100+denis;
+        int newCristina = cristina*10/100+cristina;
+        int oldYearMasha = 12*masha;
+        int oldYearDenis = 12*denis;
+        int oldYearCristina = 12*cristina;
+        int newYearMasha = 12*newMasha;
+        int newYearDenis = 12*newDenis;
+        int newYearCristina = 12*newCristina;
+        System.out.println("Маша теперь получает "+newMasha+" рублей. Годовой доход вырос на "+(newYearMasha-oldYearMasha)+" рублей.");
+        System.out.println("Денис теперь получает "+newDenis+" рублей. Годовой доход вырос на "+(newYearDenis-oldYearDenis)+" рублей.");
+        System.out.println("Кристина теперь получает "+newCristina+" рублей. Годовой доход вырос на "+(newYearCristina-oldYearCristina)+" рублей.");
+
+
 
 
     }
